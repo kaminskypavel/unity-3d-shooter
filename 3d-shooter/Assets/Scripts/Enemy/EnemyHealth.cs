@@ -48,9 +48,11 @@ public class EnemyHealth : MonoBehaviour
             
         hitParticles.transform.position = hitPoint;
         hitParticles.Play();
+        Debug.Log("Hit Detected" + currentHealth);
 
         if(currentHealth <= 0)
         {
+            Debug.Log("DEAD" + currentHealth);
             Death ();
         }
     }
@@ -62,10 +64,10 @@ public class EnemyHealth : MonoBehaviour
 
         capsuleCollider.isTrigger = true;
 
-        anim.SetTrigger ("Dead");
-
+        anim.SetTrigger("Dead");
+        Debug.Log("Dead");
         enemyAudio.clip = deathClip;
-        enemyAudio.Play ();
+        enemyAudio.Play();
     }
 
 
