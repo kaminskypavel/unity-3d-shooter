@@ -632,32 +632,34 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114782572030501164, guid: 4f9be89d45891bb4e9259ef30ccc85fb,
+        type: 2}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1587056077}
+    - target: {fileID: 114782572030501164, guid: 4f9be89d45891bb4e9259ef30ccc85fb,
+        type: 2}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 1862851866}
+    - target: {fileID: 108837384159179600, guid: 4f9be89d45891bb4e9259ef30ccc85fb,
+        type: 2}
+      propertyPath: m_Color.r
+      value: 0.9411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 108837384159179600, guid: 4f9be89d45891bb4e9259ef30ccc85fb,
+        type: 2}
+      propertyPath: m_Color.g
+      value: 0.11764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 108837384159179600, guid: 4f9be89d45891bb4e9259ef30ccc85fb,
+        type: 2}
+      propertyPath: m_Color.b
+      value: 0.11764706
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f9be89d45891bb4e9259ef30ccc85fb, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &845917566 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1084629410323622, guid: 4f9be89d45891bb4e9259ef30ccc85fb,
-    type: 2}
-  m_PrefabInternal: {fileID: 845917565}
---- !u!114 &845917567
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 845917566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 544f2064df03e95419b4a5147c506b08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 100
-  currentHealth: 0
-  healthSlider: {fileID: 1587056077}
-  damageImage: {fileID: 1862851866}
-  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
-  flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!4 &845917572 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4570666475295544, guid: 4f9be89d45891bb4e9259ef30ccc85fb,
