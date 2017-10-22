@@ -15,10 +15,10 @@ public class PlayerHealth : MonoBehaviour
     public Color flashColour = new Color(1f, 0f, 0f, 0.1f);
 
 
-    Animator anim;
-    AudioSource playerAudio;
+    private Animator anim;
+    private AudioSource playerAudio;
 
-    PlayerMovement playerMovement;
+    private PlayerMovement playerMovement;
 
     //PlayerShooting playerShooting;
     bool isDead;
@@ -54,6 +54,7 @@ public class PlayerHealth : MonoBehaviour
     {
         damaged = true;
         currentHealth -= amount;
+        Debug.Log(healthSlider.value);
         healthSlider.value = currentHealth;
         playerAudio.Play();
 
