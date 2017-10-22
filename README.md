@@ -22,10 +22,10 @@ you can download each lesson implementaion under ["Releases"](https://github.com
 ### Tools
 
 [Unity 2017.1 Personal Edition](https://store.unity.com/)
-<img src="https://user-images.githubusercontent.com/4253088/31866527-885937f8-b789-11e7-87cf-061d151e52ed.png" alt="unity" style="width: 100px;"/>
+<img src="https://user-images.githubusercontent.com/4253088/31866527-885937f8-b789-11e7-87cf-061d151e52ed.png" alt="unity" width="50" height="50"/>
 
 [Jetbrains Rider (**Optional**)](https://www.jetbrains.com/rider/)
-<img src="https://user-images.githubusercontent.com/4253088/31866526-87d998e0-b789-11e7-9a34-8a0f52c4a09c.png" alt="rider" style="width: 100px;"/>
+<img src="https://user-images.githubusercontent.com/4253088/31866526-87d998e0-b789-11e7-9a34-8a0f52c4a09c.png" alt="rider" width="50" height="50"/>
 
 ## Contributing
 
